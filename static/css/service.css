@@ -1,0 +1,111 @@
+.content{
+	    width: 1200px;
+    margin: 30px auto 30px;
+    background: #F5F5F5;
+    height: 500px;
+}
+.manpower{
+	    width: 585px;
+    width: 585px;
+    /* margin-top: 50px; */
+    /* margin-left: 50px; */
+    padding-left: 50px;
+    box-sizing: border-box;
+    /*margin-bottom: 50px;*/
+    background: #FFFFFF;
+    height: 500px;
+    padding-top: 50px;
+}
+.manpower .manpowerTitle{
+	width: 550px;
+	height: 50px;
+}
+.marginLeft{
+	margin-left:10px;
+	
+}
+.conmonboxMarginLeft{
+	margin-left: 30px;
+}
+.manpower .manpowerTitle_lt{
+	width: 50px;
+}
+.manpower .manpowerTitle_lt img{
+	margin-top: 2px;
+}
+.manpowerTitle_rt{
+	font-size: 20px;
+}
+.manpowerCont{
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+}
+.manpowerCont .manpowerCont_img{
+	width: 50px;
+	
+}
+.manpowerCont .manpowerCont_img i{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #A42B2C;
+	margin-left: 8px;
+}
+.container{
+	    width: 585px;
+   /* margin: 30px;*/
+    padding: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+        height: 967px;
+}
+.ss{
+	width: 50px;
+}
+.manpowerTitle_lt img{
+	margin-top: 4px;
+}
+.container .introduce{
+	padding-left: 58px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+.container .detail{
+	   /* width: 1200px;*/
+    height: 40px;
+    line-height: 40px;
+}
+.container .detail .detail_img{
+	    width: 50px;
+}
+.container .detail .detail_img i{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #A42B2C;
+    margin-left: 8px;
+}
+.container .detail_introduce{
+	/*width: 1200px;*/
+    padding-left: 59px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+	
+}
+.container .detailStrip{
+	/*width: 1200px;*/
+	padding-left: 59px;
+	box-sizing: border-box;
+}
+.container .detailStrip span{
+	display: block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.cont{
+	width: 1200px;
+	margin: 30px auto;
+}

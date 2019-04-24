@@ -1,0 +1,185 @@
+body{
+	background-color: #F5F5F5;
+}
+/*内容 部分主体1200*/
+.container{
+	width:100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+/*核心优势d的标题部分*/
+.superiority{
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+.superiority  p{
+	font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 80%;
+    margin: 14px auto;
+}
+/*公共部分的样式*/
+.title-en a{
+	font-size: 28px;
+    margin: 0px 0 14px 0;
+    font-weight: 300;
+    color: #333;
+    text-decoration: none;
+        cursor: context-menu;
+}
+.title-icon{
+	width: 30px;
+    height: 5px;
+    margin: 0 auto;
+    background: #A42B2C;
+}
+
+
+/*核心优势d的内容部分*/
+.superiorityContent{
+	width: 100%;
+}
+.superiorityContent .conmonTitle{
+	margin: 78px 0 20px;
+    width: 186px;
+    /* background: #007AFF; */
+    text-align: center;
+    position: relative;
+    height: 186px;
+    border-radius: 50%;
+    margin: 50px 107px;
+}
+.superiorityContent .conmonTitle a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.superiorityContent .conmonTitle a > div{
+			 position: absolute;
+            left: 0;
+            height: 0;
+           width: 186px;
+   			 height: 186px;
+            color: #fff;
+            /*动画元素transform-style*/
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transition: .8s ease-in-out ;
+            -moz-transition:  .8s ease-in-out ;
+            /*动画元素背后设置为hidden*/
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            background: #ffffff;
+	border-radius: 50%;
+	
+}
+.superiorityContent .conmonTitle a div:first-child{
+	 /*
+            绕y轴旋转
+            */
+            -webkit-transform: rotateY(0);
+            -moz-transform: rotateY(0);
+            z-index: 2;
+}
+.superiorityContent .conmonTitle a div:last-child{
+	
+           /* 绕y轴旋转*/
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            z-index: 1;
+}
+.superiorityContent .conmonTitle:hover div:first-child
+        {
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+        }
+.superiorityContent .conmonTitle:hover div:last-child
+        {
+           -webkit-transform: rotateY(0);
+            -moz-transform: rotateY(0);
+        }
+   
+.superiorityContent p{
+	 margin-top: 40px;
+	 font-size: 20px;
+	color: #333333;
+}
+.idea img{
+	width: 100%;
+}
+.hd{
+   position: absolute;
+   background-color: #A42B2C !important;
+   color: #FFFFFF;
+   font-size: 18px;
+   line-height: 186px;
+   border-radius: 50%;
+   top: 0;
+   left: 107px;
+}
+/*服务领域*/
+.serviceType{
+	width: 1200px;
+	text-align: center;
+	margin: 40px auto 60px;  
+}
+.serviceType_content{
+	width: 100%;
+	margin-top: 45px;
+}
+.serviceType_content .conmonbox{
+	width: 300px;
+	height: 346px;
+	background: #FFFFFF;
+}
+/*鼠标移入*/
+.serviceType_content .conmonbox:hover{
+	  z-index: 2;
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0)
+}
+.serviceType_content .consult{
+	margin-left: 150px;
+}
+
+.serviceType_content .investment{
+	margin-left: 150px;
+}
+.conmonbox img{
+	width: 100%;
+	height: 190px;
+}
+.conmonbox p{
+	text-align: left;
+	font-size: 18px;
+	color: #333333;
+	margin: 15px 0 10px;
+	font-weight: 700;
+}
+.conmonBtm{
+	padding:0px 10px 10px;
+	text-align: left;
+	box-sizing: border-box;
+}
+.conmonBtm div{
+	line-height: 1.7;
+	font-size: 14px;
+	color: #333333;
+}
+/*隔断图片*/
+.cutOff{
+	width: 100%;
+}
+.cutOff img{
+	width: 100%;
+}
+.title-ch{
+	font-size: 16px;
+	color: #666666;
+}

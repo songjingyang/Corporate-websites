@@ -1,0 +1,55 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.content-tlt{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.content-tlt p{
+	line-height: 60px;
+	font-size: 18px;
+	color: #A42B2C;
+}
+.aboutBox{
+	padding: 25px 50px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.aboutImg{
+	width: 45%;
+}
+.aboutImg img{
+	width: 100%;
+}
+.aboutText{
+	width: 50%;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.aboutText p{
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 15px;
+	text-indent: 2em;
+}
+.aboutDown{
+	padding: 50px;
+}
+.aboutDown img{
+	width: 100%;
+}
+.memberDown img{
+	width: 100%;
+}
+/*会员服务*/
+.memText p{
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 15px;
+	text-indent: 2em;
+}
